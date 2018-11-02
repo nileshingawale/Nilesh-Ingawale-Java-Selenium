@@ -1,0 +1,11 @@
+In list order of element is maintained
+In Map order of element is not maintained
+
+Duplicate values are allowed in List
+Duplicate key is not allowed in Map but values are allowed
+
+List is Stored in continuous memory location
+Map is not stored on continuous memory location
+
+ArrayList is a example of List
+HashMap is an example of Map

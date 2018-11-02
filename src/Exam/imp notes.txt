@@ -1,0 +1,49 @@
+javap first.java
+
+static method cannot acess instance variable
+instance method can access static
+static can access static
+
+noormal class --> extends
+abstract -- > extends
+interface --> implements
+abstarct --> child class is also abstract ( extends )
+inferface -- > child class is also a interface ( extends )
+
+
+ristriction -- only sub class instance can access protected memeber in parent class
+
+package Q
+Class a
+{
+	protected void display ()
+  {
+		-----------
+  }
+}
+
+
+
+Package R
+class b extends a
+{
+		b a = new b();
+		b.display // will work
+                a v = new a();
+		v.display // will not work
+}
+
+
+Runtime exception - unchecked exception
+comiple time exception - checked need to handle it
+
+
+Collection
+
+
+
+
+
+
+
+

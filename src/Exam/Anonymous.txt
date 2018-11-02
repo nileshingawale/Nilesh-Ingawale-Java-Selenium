@@ -1,0 +1,29 @@
+Anonymous object 
+1.Some thing which dont has reference is called as anonymous object
+
+		eg new Demo() // only object
+
+
+2.Java designers advice to use anonymous objects when the object is required 
+only once in the program.
+3.The advantage is to save memory, as anonymous object dies immediately.
+
+
+		
+
+public class Demo
+{
+  int x = 10;
+  public void display()
+  {
+    System.out.println("Hello 1");
+  }
+  public static void main(String args[])
+  {
+    System.out.println(new Demo().x);
+    System.out.println(new Demo().x);
+    System.out.println(new Demo().x);
+    new Demo().display();
+    new Demo().display();
+  }
+}
